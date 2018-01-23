@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "377380096178",
+    "firebase_url": "https://cosignapp-f69df.firebaseio.com",
+    "project_id": "cosignapp-f69df",
+    "storage_bucket": "cosignapp-f69df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377380096178:android:efa14c8e4ab78dc1",
+        "android_client_info": {
+          "package_name": "com.edge.cosignapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377380096178-4hc7gapll88mstti0ab85jkllcupr9nb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edge.cosignapp",
+            "certificate_hash": "0518d17efc24a075f1a0e4fb08f1ee96111f9bf2"
+          }
+        },
+        {
+          "client_id": "377380096178-b2h11caqqqni906rvstj81uo0gcfg1v6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "377380096178-g6bqm6pb5c071g8eh9j5qfnrc6inbfnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSbzjbf3nzmOZk3af0DmlF_w3PBS5k5EM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377380096178-b2h11caqqqni906rvstj81uo0gcfg1v6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

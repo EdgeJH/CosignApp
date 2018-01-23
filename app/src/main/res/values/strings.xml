@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">코싸인</string>
+
+    <string name="loading">잠시만 기다려주세요.</string>
+    <string name="title_1">근로 계약서</string>
+    <string name="title_2">외주 계약서</string>
+    <string name="title_3">모델 계약서</string>
+
+
+    <string name="info_1">고용주와 근로자가 작성하는 계약서 입니다.\n 아르바이트, 일용직 등등 </string>
+    <string name="info_2">외주용역 진행시 작성하는 계약서 입니다.\n 프리랜서, 협력업체 등등 </string>
+    <string name="info_3">사진작가와 모델이 작성하는 계약서 입니다.\n 사진작가, 모델 등등 </string>
+
+    <string name="naming_1">(이하 "사업주"라 함)과(와)</string>
+    <string name="naming_2">(이하 "근로자"라 함)은 다음과 같이 근로계약을 체결한다.</string>
+    <string name="work_date_1">1. 근로 계약 기간 : </string>
+    <string name="work_date_2"> 부터 </string>
+    <string name="work_date_3"> 까지</string>
+    <string name="work_date_4">* 근로계약기간을 정하지 않는 경우 "근로 개시일"만 기재</string>
+    <string name="work_place">2. 근로 장소 : </string>
+    <string name="work_info">3. 업무 내용 : </string>
+    <string name="work_time_1">4. 소정 근로 시간 : </string>
+    <string name="work_time_2">부터</string>
+    <string name="work_time_3">까지 (휴게 시간 : </string>
+    <string name="work_time_4">~</string>
+    <string name="work_time_5">)</string>
+    <string name="work_week_1">5. 근무일/휴일 : </string>
+    <string name="wokr_week_2">매주</string>
+    <string name="wokr_week_3">일(또는 매주 단위) 근무, 주휴일 매주</string>
+    <string name="wokr_week_4">요일</string>
+    <string name="pay_1">6. 임 금</string>
+    <string name="pay_2">급</string>
+    <string name="pay_3">원</string>
+    <string name="pay_4">상여금</string>
+    <string name="pay_5"> - </string>
+    <string name="pay_6">지급 방법 : </string>
+    <string name="holiday_1">7. 연차 유급 휴가</string>
+    <string name="holiday_2"> - 연차 유급 휴가는 근로기준법에서 정하는 바에 따라 부여함</string>
+    <string name="send_1">8. 근로 계약서 교뷰</string>
+    <string name="send_2"> - 사업주는  근로계약을 체결함과 동시에 본 계약을 사본으로하여 근로자의 교부 요구와 관계없이 근로자에게 교부함 (근로 기준법 제 17조 이행)</string>
+    <string name="etc_1">9. 기타</string>
+    <string name="etc_2"> - 이 계약에 정함이 없는 사항은 근로기준법령에 의함</string>
+    <string name="sign_1">사업체명 : </string>
+    <string name="sign_2">주소 : </string>
+    <string name="sign_3">대표자 : </string>
+    <string name="sign_4">주소 : </string>
+    <string name="sign_5">연락처 : </string>
+    <string name="sign_6">성명 : </string>
+</resources>
