@@ -3,28 +3,28 @@ package com.edge.cosignapp.Utils;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
-
-import com.edge.cosignapp.R;
 
 /**
  * Created by user1 on 2018-01-13.
  */
 
-public class SharePopup implements View.OnClickListener{
+public class PopupView implements View.OnClickListener{
     PopupWindow mPopupWindow;
     Context context;
     LayoutInflater layoutInflater;
-    View popupView;
+    ViewGroup popupView;
     PopupClickListener popupClickListener;
     RelativeLayout pdfDel,pdfShare,pdfEmail;
-    public SharePopup(Context context) {
+    public PopupView(Context context,int layout) {
         this.context = context;
         layoutInflater = LayoutInflater.from(context);
-        popupView = layoutInflater.inflate(R.layout.popup_share, null);
+        popupView = (ViewGroup) layoutInflater.inflate(layout, null);
     }
 
     public void showPopup( View button){
@@ -45,12 +45,11 @@ public class SharePopup implements View.OnClickListener{
         initButton();
     }
     private void initButton(){
-        pdfEmail = popupView.findViewById(R.id.pdf_email);
-        pdfDel = popupView.findViewById(R.id.pdf_del);
-        pdfShare = popupView.findViewById(R.id.pdf_share);
-        pdfDel.setOnClickListener(this);
-        pdfEmail.setOnClickListener(this);
-        pdfShare.setOnClickListener(this);
+        ViewGroup viewGroup = (ViewGroup) popupView.getChildAt(0);
+        for (int i =0; i<viewGroup.getChildCount(); i++){
+            View view = viewGroup.getChildAt(i);
+            view.setOnClickListener(this);
+        }
     }
 
     @Override

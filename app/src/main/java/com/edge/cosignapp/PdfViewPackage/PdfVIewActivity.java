@@ -14,7 +14,7 @@ import com.edge.cosignapp.MainPackage.MainActivity;
 import com.edge.cosignapp.R;
 import com.edge.cosignapp.Utils.LoadingProgress;
 import com.edge.cosignapp.Utils.PopupClickListener;
-import com.edge.cosignapp.Utils.SharePopup;
+import com.edge.cosignapp.Utils.PopupView;
 import com.github.barteksc.pdfviewer.PDFView;
 import com.github.barteksc.pdfviewer.listener.OnLoadCompleteListener;
 
@@ -23,7 +23,7 @@ import java.io.File;
 public class PdfVIewActivity extends AppCompatActivity implements OnLoadCompleteListener,View.OnClickListener ,PopupClickListener,PdfViewTask.View{
     PDFView pdfView;
     RelativeLayout shareBt,back;
-    SharePopup sharePopup;
+    PopupView sharePopup;
     PdfViewTask.PresenterBridge presenterBridge;
     PdfViewPresenter presenter;
     File file;
@@ -43,7 +43,7 @@ public class PdfVIewActivity extends AppCompatActivity implements OnLoadComplete
         goMain = findViewById(R.id.go_main);
         back =findViewById(R.id.back);
         goMain.setOnClickListener(this);
-        sharePopup = new SharePopup(getApplicationContext());
+        sharePopup = new PopupView(getApplicationContext(),R.layout.popup_share);
         sharePopup.setPopupClickListener(this);
         shareBt.setOnClickListener(this);
     }
@@ -59,6 +59,7 @@ public class PdfVIewActivity extends AppCompatActivity implements OnLoadComplete
                 .onLoad(this)
                 .load();
     }
+
 
     @Override
     public void loadComplete(int nbPages) {

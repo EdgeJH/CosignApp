@@ -40,9 +40,12 @@
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="5dp"
         android:layout_below="@+id/toolbar"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
         android:layout_above="@+id/go_main"
         app:cardUseCompatPadding="true">
         <com.github.barteksc.pdfviewer.PDFView

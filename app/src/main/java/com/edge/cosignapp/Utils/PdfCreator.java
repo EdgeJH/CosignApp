@@ -308,7 +308,7 @@ public class PdfCreator {
         table2.setWidthPercentage(60);
         document.add(table2);
         //Step 5: Close the document
-
+        Log.d("test123","aaaaaaa");
 
         document.close();
         output.close();
